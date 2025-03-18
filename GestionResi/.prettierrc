@@ -1,0 +1,12 @@
+{
+    "tabWidth": 4,
+    "printWidth": 80,
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": ["*.js"],
+            "options": { "singleQuote": true, "semi": false }
+        },
+        { "files": ["*.html"], "options": { "bracketSameLine": false } }
+    ]
+}

@@ -1,0 +1,55 @@
+/* 
+   ----- INTER FONT -----
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap");
+
+:root {
+    --color-header: #ececec;
+    --color-oficial: #8a2036;
+}
+
+.color-fondo {
+    background-color: var(--color-header) !important;
+}
+
+.color-oficial {
+    color: var(--color-oficial) !important;
+}
+
+.bg-oficial {
+    background-color: var(--color-oficial);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.offcanvas-body ul li:hover {
+    background-color: #373a3e;
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 576px) {
+    #formLogin,
+    .alerta-login {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    #formLogin,
+    .alerta-login {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 992px) {
+    #formLogin,
+    .alerta-login {
+        max-width: 30%;
+    }
+}
