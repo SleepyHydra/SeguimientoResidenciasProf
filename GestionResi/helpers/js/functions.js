@@ -11,8 +11,8 @@ function getUrl(path = '/') {
     const host = window.location.hostname
     const port = window.location.port
     const urlLocal = window.location.href.toLowerCase().split('/')
-    const carpetaUrl = urlLocal.includes('seybt')
-        ? 'seybt/bttescha'
+    const carpetaUrl = urlLocal.includes('Gestion De Residencias Profesionales')
+        ? 'Gestion De Residencias Profesionales/bttescha'
         : urlLocal.includes('bttescha')
         ? 'bttescha'
         : ''

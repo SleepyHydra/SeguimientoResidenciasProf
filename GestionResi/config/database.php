@@ -7,7 +7,8 @@
  *
  * @return mysqli|bool Conexión a la base de datos o `false`.
  */
-function conectar_db() {
+function conectar_db()
+{
     $servername = "localhost";
     $username = "root";
     $password = "root";
@@ -18,7 +19,7 @@ function conectar_db() {
         $conn = new mysqli($servername, $username, $password, $database);
 
         // Verificar la conexión
-        if( $conn->connect_error ) {
+        if ($conn->connect_error) {
             throw new Exception("Error de conexión: " . $conn->connect_error);
         }
 
@@ -38,5 +39,3 @@ function conectar_db() {
         return false;
     }
 }
-
-?>

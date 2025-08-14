@@ -23,7 +23,7 @@ $descarga_class = (strpos($current_url, "descarga_archivos.php") !== false) ? "b
 <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title text-light" id="offcanvasLabel">
-            SEYBT
+            Gestion de Residencias Profesionales
         </h5>
         <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>

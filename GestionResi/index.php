@@ -11,6 +11,7 @@ if (isset($_SESSION)) {
 
 <!DOCTYPE html>
 <html lang="es-MX">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -102,7 +103,7 @@ if (isset($_SESSION)) {
             <button type="submit" class="btn btn-primary fw-bold w-100">
                 Iniciar sesión
             </button>
-            <p class="mt-4">¿Eres coordinador? <a href="./coordinador/nuevo_coordinador.php">Regístrate</a></p>
+            <p class="mt-4">¿Eres coordinador? <a href="./coordinador/clave_registro.php">Regístrate</a></p>
         </form>
     </main>
 
@@ -112,7 +113,7 @@ if (isset($_SESSION)) {
 </body>
 
 <?php
-    include_once __DIR__ . '/includes/footer.php';
+include_once __DIR__ . '/includes/footer.php';
 ?>
 
 </html>
